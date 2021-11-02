@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{background-image: url("digital-digital-art-artwork-illustration-minimalism-hd-wallpaper-thumb.jpg");
+     background-repeat: no-repeat;
+     background-size: cover;}
+
+.container{
+     width:350px;
+     height: 440px;
+     border:1px solid black;
+     border-radius: 10px;     
+     background-color:rgba(0,0,0,0.30);
+     position: absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+}
+.container h1{
+    color:white;
+    text-align: center;
+    font-family: sans-serif;
+}
+.container p{
+    font-size: 13px;
+    text-align: center;
+    margin-top: -2px;
+    color:gray;
+}
+.container form{
+    margin-left: 20px;
+    color:white;
+}
+.container form input{
+    width:320px;
+    padding:7px;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid lightgrey;
+    background-color: transparent;
+    color:white;
+    font-size: 16px;
+}
+input[type=submit] {
+    background-color:crimson;
+    width:300px;
+    padding:10px 0;
+    margin:15px 32px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+span{
+    color:crimson;
+}

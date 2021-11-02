@@ -1,0 +1,52 @@
+@media screen and (max-width:1100px){
+    .button1 p{
+        display: none;
+    }
+    .button1{
+        width:80px;
+    }
+}
+@media screen and (max-width:1065px){
+    header{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width:960px){
+    header h1{
+        display:none;
+    }
+    header button{
+        position:absolute;
+        right: 15px;
+    }
+    nav{display: block;
+        width: 100%;
+        height: 200px;
+        margin:auto;
+    }
+     nav .center{
+        width:60%;
+        float:left;
+    }
+    .nav_right{
+        width:50px;
+    }
+    .nav_right .cart{
+        right:50px;
+        top:260px;
+        display: none;
+    }
+    nav .button1{
+        float:left;
+        width:100px;
+    }
+    .nav_right .nav_rightdiv{
+        display: none;
+    }
+    .nav_right .nav_message{
+        display: none;
+    }
+    
+   
+}

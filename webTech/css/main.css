@@ -1,0 +1,149 @@
+@media screen and (max-width:1080px){
+    .section2{
+        height:600px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top:40px;
+    }
+    .section2 .box{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:1010px){
+    nav .nav_left{
+        margin-left:2%;
+    }
+    nav .nav_left h1{
+        font-size:30px;
+    }
+    .line{
+        display: none;
+    }
+    .section1{ 
+        margin-top:20px; 
+        width: 100%;
+        height:700px;
+        display: block;
+        align-items: center;
+    }
+    .section1 .section_box{
+        width: 25%;
+        margin:auto;
+        height:200px;
+        padding-top: 50px;
+    }
+    .section_box .contex{
+        margin:30px 0 0 40px;
+        display: block;
+    }
+    .section_box img{
+        margin-top:30px;
+    }
+    .contex p{
+        width: 230px;
+        margin: 10px 0 0 16px;
+    }
+
+
+}
+
+@media screen and (max-width:940px){
+     
+    nav .nav_icons{
+        font-size: 24px;
+        display:block;
+        margin-right: 5%;
+        }
+    .nav_icons .fa-xmark{
+        display:none;
+    }
+    .nav_icons:hover .fa-xmark{
+        display: block;
+        color:red;
+    }
+    .nav_icons:hover .fa-bars{
+        display:none;}
+    nav .navbar ul{
+      display: none;}
+   
+}
+@media screen and (max-width:700px){
+    main{
+        width:100%;
+        height: 700px;
+    }
+    .main_img{
+        width: 60%;
+        height: 700px;
+    }
+    main h1{
+        position:absolute;
+        font-size: 40px;
+        top:320px;
+        left: 160px;
+    }
+    main .div01{
+        font-size: 70px;
+        line-height: 70px;
+        position:absolute;
+        top:330px;
+        left:50px;
+    }
+    main h2{
+        position:absolute;
+        font-size: 30px;
+        top:370px;
+        left: 160px;
+    }
+     main p{
+         font-size: 14px;
+         width:460px;
+        position:absolute;
+        top:450px;
+        left: 50px; 
+     }
+     main .btns{
+        position:absolute;
+        top:560px;
+        left: 60px;
+     }
+     section{
+         margin-top:170px;
+        display:flex;
+        flex-direction:column;
+    }
+    section div{
+        margin-bottom: 15px;
+    }
+    .section1{
+        margin-top:150px;
+    }
+    .section1 .section_box{
+        width: 100%;
+        padding-left:100px;
+        height:200px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width:520px){
+    main .div01{
+        display: none;
+    }
+    .main_img{
+        width: 100%;
+        height: 700px;
+    }
+    main h1{
+        left: 50px;
+    }
+    main h2{
+        left: 50px;
+    }
+    main p{
+        width:360px; 
+    }
+    main .btns{
+        left: 50px;
+     }
+    
+}

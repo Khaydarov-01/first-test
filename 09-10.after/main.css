@@ -1,0 +1,35 @@
+@media (max-width:870px){
+    .navbar{
+        flex-direction: column;
+        
+        justify-content: center;
+        text-align: center;
+    }
+    .navbar ul li{
+        flex-direction: column;
+        background-color: dodgerblue;
+        width:100%;
+        display:block;
+    }
+    .navbar ul li a{
+        color:white;
+    }
+}
+@media (max-width:580px){
+    .container{
+        width:100%;
+        height:100%;
+    }
+    .navbar ul{
+        width:100%;
+        display:block;
+    }
+    .navbar ul li{
+        background-color: crimson;
+        font-size: 30px;
+    }
+    .navbar ul li a{
+        color:white;
+    }
+    
+}

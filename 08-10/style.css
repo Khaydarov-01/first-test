@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("\OU7NAl.jpg");
+    width:100%;
+    height: 620px;
+    background-size:cover;
+    background-origin: fixed;
+    background-position: top;
+}
+header{
+    display:flex;
+    text-align: center;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    padding:20px 10px;
+    justify-content: center;
+    text-align: center;
+    margin:0 10px;
+}
+header ul li{
+    justify-content: center;
+    text-align: center;
+    padding:5px;
+    color:white;
+    margin:20px 50px;
+}
+header ul .line{
+    color:crimson;
+}
+header ul b{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    margin-top:60px;
+    justify-content: center;
+    text-align: center;
+}
+main h1{
+    color:white;
+    font-family:inherit;
+    font-size:50px;
+}
+main .text{
+    color:dodgerblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+main p{
+    margin-top: 30px;
+    font-size:20px;
+    color:white;
+}
+.btns{
+    margin-top:140px;
+}
+.btns .ex1{
+    font-size:15px;
+    padding:12px 20px;
+    margin:0 10px;
+    background-color: crimson;
+    color:white;
+    border:none;
+}
+.btns .ex2{
+    font-size:15px;
+    padding:10px 18px;
+    margin:0 10px;
+    background-color: transparent;
+    color:white;
+    border:2px solid white;
+     
+}
+.below{
+    margin-top:50px;
+    color: white;
+}
+.below b{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+}
+footer{
+    width:100%;
+    height:36px;
+    background-color: lightslategrey;
+}
+footer p{
+    text-align:center;
+    color:#fff;
+    padding-top: 15px;
+    
+}
+
+

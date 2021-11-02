@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+header{
+    width: 100%;
+    height:60px;
+    background: #141D28;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    font-size: 18px;
+}
+header p{
+    margin-left: 5%;
+}
+header .header_iconcs{
+    margin-right: 5%;
+    cursor:pointer;
+}
+.header_iconcs i{
+      margin:0 5px;
+}
+.header_iconcs .fa-instagram:hover{
+      color: crimson;
+      font-size: 21px;
+}
+.header_iconcs .fa-whatsapp:hover{
+    color: green;
+    font-size: 21px;
+}
+.header_iconcs .fa-twitter:hover{
+    color: dodgerblue;
+    font-size: 21px;
+}
+.header_iconcs .fa-youtube:hover{
+    color: red;
+    font-size: 21px;
+}
+/*navigation bar////////////////////////////////////////////////*/
+
+nav{
+    width: 100%; 
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0C1117;
+    color:#fff;
+}
+nav .nav_left{
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+}
+nav img {
+    margin-right: 14px;
+}
+.nav_left h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color:dodgerblue;
+}
+ nav .navbar{
+     margin-right: 5%;
+    display: flex;
+}
+nav .navbar ul{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar ul li{
+    position: relative;
+    list-style: none;
+}
+.navbar ul li a{
+    display:block;
+    color:#fff;
+    background:#0C1117;
+    text-decoration: none;
+    font-size:15px;
+    padding-top:25px;
+    text-align: center;
+    width:120px;
+    height:70px;
+    text-transform: uppercase;
+}
+.navbar ul li .fa-caret-down{
+    margin-left: 5px;
+}
+.navbar ul li a:hover{
+    background: black;
+}
+.navbar ul ul{
+    position: absolute;
+    top:70px;
+    z-index: 999;
+    display:block;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul ul li{
+    position: relative;
+    top:-70px;
+    left:120px;
+}
+nav .nav_icons{
+    display: none;
+}
+/*main section////////////////////////////////*/
+
+main{
+    background: #233142;
+    color:#fff;
+    width:100%;
+    height: 810px;
+    overflow: auto;
+    position: relative;
+}
+.main_img{
+    position: absolute;
+    top:0;
+    right: 0;
+    width: 60%;
+    height: 810px;
+}
+main h1{
+    position:absolute;
+    font-size: 50px;
+    font-weight: 400;
+    top:320px;
+    left: 255px;
+    z-index: 1;
+}
+main .div01{
+    display: block;
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: 500;
+    max-width:115px;
+    border-right: 4px solid dodgerblue;
+    font-family:sans-serif;
+    position:absolute;
+    top:330px;
+    left:130px;
+    z-index: 1;
+}
+.div01 h3{
+    opacity: 0.3;
+}
+main h2{
+    position:absolute;
+    font-size: 40px;
+    font-weight: 400;
+    color:dodgerblue;
+    top:380px;
+    left: 255px;
+    z-index: 1;
+}
+ main p{
+     font-family: monospace;
+     font-size: 16px;
+     width:460px;
+    position:absolute;
+    top:460px;
+    left: 130px;
+    z-index: 1; 
+ }
+ main .btns{
+    position:absolute;
+    top:580px;
+    left: 130px;
+ }
+ .btns button{
+     font-size: 16px;
+     width:165px;
+     height:42px;
+     border: 1px solid dodgerblue;
+     background: transparent;
+     color:white;
+     margin-right: 14px;
+     border-radius: 20px;
+     position: relative;
+     cursor:pointer;
+     z-index: 1;
+ }
+ button span{
+     position:absolute;
+     width: 0;
+     height: 100%;
+     background: dodgerblue;
+     border-radius: 20px;
+     left:0;
+     bottom: 0;
+     z-index: -1;
+     transition: all 0.5s ease-in-out;
+ }
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border:none;
+}
+/*////////////////////////////////////*/
+
+.div1_h1{
+    margin:auto;
+    width:300px;
+    height:60px;
+    border-left: 4px solid dodgerblue;
+    padding:5px 0 5px 30px;
+}
+.div1_h1 span{
+    font-size: 35px;
+    font-family: monospace;
+    color:dodgerblue;
+}
+.div1_h1 h1{
+    font-size: 35px;
+    font-family: monospace;
+}
+section{
+    width:100%;
+    height: 400px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+section h3{
+    font-family: monospace;
+    font-size: 20px;
+}
+.section1{
+    width: 100%;
+    height:550px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #233142;
+    color:#fff;
+}
+.section1 .section_box{
+    width: 25%;
+    height:550px;
+    padding-top: 200px;
+}
+.section_box img{
+    float:left;
+}
+.section_box .contex{
+    margin:0 0 70px 40px;
+    display: block;
+}
+.contex h3{
+    font-size: 20px;
+    line-height: 23px;
+    font-family: monospace;
+    margin-left:15px;
+    width:230px;
+}
+.contex p{
+    width: 230px;
+    margin: 15px 0 0 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.section2{
+    width: 100%;
+    height:600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.section2 .box{
+    margin-left:5px;
+}
+.section2 img{
+    width:100%;
+    height: 357px;
+}
+.section2 h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px; 
+    line-height: 46px;
+    width:200px;
+    padding-left:20px;
+    border-left:3px solid dodgerblue;
+}
+.section2 span{
+    color:dodgerblue;
+}
+.section2 h4{
+    color:#141D28;
+    margin-top:15px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.section2 p{
+    color:#141D28;
+    margin-top:5px;
+    font-family: monospace;
+    font-family: 18px;
+}
+.section2 button{
+    background: transparent;
+    border: 1px solid dodgerblue;
+    font-size: 20px;
+    font-family: monospace;
+    margin:40px; 
+    height: 50px;
+    width: 164px;
+    position: relative;
+}
+.section2 button span{
+    border-radius:0;
+}
+/*///////////////////////////////////////*/
+.section3{
+   width: 100%;
+   height: 1000px;
+   background-color: rgba(0,0,0,0.3);
+   color:#fff;
+}
+.section3 .section3_boxes{
+    width: 90%;
+    height: 1000px;
+    margin-left:100px;
+    padding-top: 10px;
+}
+.section3 .section3_h1 {
+    width:280px;
+    height:auto;
+    margin:140px 0 86px 0;
+    
+    border-left: 3px solid dodgerblue;
+    padding-left:20px;
+}
+.section3_boxes .section3_box{
+    margin-top:40px;
+    max-width:567px;
+    height:200px;
+}
+.section3_boxes .section3_h1 h1{
+    font-family: monospace;
+    font-size: 35px;
+}
+.section3_box h2{
+    font-size: ;
+}
+
+
+
+     
+
+
+
+
